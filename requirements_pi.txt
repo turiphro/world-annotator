@@ -1,0 +1,5 @@
+# Adds raspberry pi specific dependencies
+-r requirements.txt
+
+# picamera can also be installed elsewhere with env var READTHEDOCS=True
+picamera
