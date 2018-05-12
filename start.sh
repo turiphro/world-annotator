@@ -3,5 +3,5 @@
 
 cd $(dirname "$0")
 
-python3 stream.py --resolution 600 400 --location 1 webcam
-#python3 stream.py -l files/test.jpg image
+python3 viewer.py --resolution 600 400 --location 0 --algorithm classify webcam
+#python3 viewer.py -l files/test.jpg image

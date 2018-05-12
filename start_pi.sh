@@ -3,4 +3,4 @@
 
 cd $(dirname "$0")
 
-python3 stream.py --resolution 480 320 --fullscreen picamera
+python3 viewer.py --resolution 480 320 --fullscreen 1 --algorithm classify picamera
